@@ -1,6 +1,6 @@
 FROM node:lts-alpine3.14 AS builder
-ARG api_url
-ENV VITE_API_URL=$api_url
+ARG API_URL
+ENV VITE_API_URL=$API_URL
 RUN mkdir /app
 COPY package*.json /app
 WORKDIR /app

@@ -1,0 +1,1 @@
+cd ./architecture/staging && terraform destroy -auto-approve
